@@ -1,0 +1,15 @@
+from pytz import timezone
+
+ca_time = timezone('US/Pacific')
+tx_time = timezone('US/Central')
+ny_time = timezone('US/Eastern')
+mt_time = timezone('US/Mountain')
+
+bot_presence_message = 'happy to serve'
+
+hook_url = 'https://...'
+bot_id = 'bot@domain'
+bot_cr = 'secret'
+server = 'http://...'
+team = {'me':ca_time, 'you':tx_time}
+blacklist = ['him','her']
